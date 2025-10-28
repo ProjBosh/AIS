@@ -1,0 +1,23 @@
+[2025-10-28 11:19:51] === НАЧАЛО РЕЗЕРВНОГО КОПИРОВАНИЯ ===
+[2025-10-28 11:19:51] Копирование файлов и папок...
+[2025-10-28 11:19:51] УСПЕХ: Скопирован /home/dmitry/backup.log
+[2025-10-28 11:19:51] ПРЕДУПРЕЖДЕНИЕ: Путь /home/dmitry/Изображения/СнимкиЭкрана не существует
+[2025-10-28 11:19:51] Работа с Git репозиторием...
+Из https://github.com/ProjBosh/AIS
+ * branch            main       -> FETCH_HEAD
+Уже актуально.
+[main c5ebc27] Автоматическое резервное копирование 2025-10-28 11:19:51
+ 1 file changed, 2 insertions(+), 20 deletions(-)
+ rewrite backup.log (97%)
+remote: Permission to ProjBosh/AIS.git denied to ProjBosh.
+fatal: «https://github.com/ProjBosh/AIS.git/» недоступно: The requested URL returned error: 403
+[2025-10-28 11:19:51] ОШИБКА: Не удалось отправить изменения в удаленный репозиторий
+Детали ошибки:
+remote: Permission to ProjBosh/AIS.git denied to ProjBosh.
+fatal: «https://github.com/ProjBosh/AIS.git/» недоступно: The requested URL returned error: 403
+[2025-10-28 11:19:51] === ЗАВЕРШЕНИЕ РЕЗЕРВНОГО КОПИРОВАНИЯ ===
+2025-10-28 11:39:45 - Начало резервного копирования
+Клонирование в «/home/dmitry/backup_repo»...
+Из github.com:ProjBosh/AIS
+ * branch            main       -> FETCH_HEAD
+Уже актуально.
